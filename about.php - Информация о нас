@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <?php 
+ $title = "Информация о нас";
+ require_once"blocks/head.php"
+  ?>
+</head>
+<body>
+<?php require_once"blocks/header.php"?>
+<div id ="wrapper">
+    <div id="leftCol">
+   <div id="about_us">
+   <img  src ="/img/Agency_type.jpg"alt ="1" title="1">
+       <h2>Информация о нас </h2>
+   </p>Агентство недвижимости Президент было основано 7 ноября 2002 года и является одним из  старейших агентств города. 11 филиалов, расположенных во всех районах, охватывают своей деятельностью всю Одессу и ближний пригород.</p>
+  </div>
+</div>
+<?php require_once"blocks/rightCol.php"?>
+</div>
+</div>
+<?php require_once"blocks/footer.php"?>
+</body>
+</html>
